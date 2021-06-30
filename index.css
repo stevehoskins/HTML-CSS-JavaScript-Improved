@@ -1,0 +1,87 @@
+#container {
+	width: 60%;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+	font-family: Arial;
+	color: slategray;
+}
+
+h1 {
+	font-size: 300%;
+	text-align: center;	
+}
+
+h1, h2 {
+	color: purple;
+	text-transform: uppercase;
+	font-weight: 100;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+footer {
+	margin-top: 30px;
+	background-color: orange;
+	color: white;
+}
+
+footer p {
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#clickMe {
+	width: 60%;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin: 25px;
+}
+
+#clickMe:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#clickMe:hover {
+  background-color: #3e8e41;
+}
+
+.btn-group button{
+	width: 20%;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin: 10px;
+	float: left;	
+}
+
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:hover {
+  background-color: blue;
+}
+
+@media screen and (max-width: 768px) {
+	#container {
+		width: 80%;	
+	}
+	
+	h1 {
+		font-size: 200%;	
+	}
+}
