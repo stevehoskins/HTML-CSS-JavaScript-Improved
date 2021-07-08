@@ -21,10 +21,10 @@ h1, h2 {
 }
 
 .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 50%;
 }
 
 footer {
@@ -73,7 +73,7 @@ footer p {
 }
 
 .btn-group button:hover {
-  background-color: blue;
+  background-color: #3e8e41;
 }
 
 @media screen and (max-width: 768px) {
@@ -84,4 +84,24 @@ footer p {
 	h1 {
 		font-size: 200%;	
 	}
+}
+
+.opacity	{
+	opacity: 70%;
+	background: pink;
+}
+
+.grid-container	{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	background-color: #2196F3;
+	padding: 10px;
+}
+
+.grid-item {
+	background-color: rgba(255, 255, 255, 0.8);
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	padding: 20px;
+	font-size: 30px;
+	text-align: center;
 }
